@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LevelUp</title>
+</head>
+<body>
+    <div class="promo_background-container">
+        <video class="promo_background" loop="loop" muted="muted" autoplay>
+            <source src="assets/videoplayback.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="promo">
+        <h1 class="promo_header">LevelUp</h1>
+        <div class="promo_description">
+            <img class="promo_description_image" src="assets/prod.png" alt="LevelUp">
+            <div class="promo_property-container">
+                <ul class="promo_property">
+                    <li>property #1</li>
+                    <li>property #2</li>
+                    <li>property #3</li>
+                </ul>
+                <a href="#form" class="promo_button">Заказать</a>
+            </div>
+        </div>
+    </div>
+    <div class="product_structure">
+        <div class="structure-container">
+            <div class="structure_item">
+                <img src="assets/prod.png" alt="">
+                <span>structure #1</span>
+            </div>
+            <div class="structure_item">
+                <img src="assets/prod.png" alt="">
+                <span>structure #2</span>
+            </div>
+            <div class="structure_item">
+                <img src="assets/prod.png" alt="">
+                <span>structure #3</span>
+            </div>
+        </div>
+        <div class="structure-container">
+            <img class="structure_image" src="assets/prod.png" alt="">
+            <a href="#form" class="promo_button">Заказать</a>
+        </div>
+        <div class="structure-container">
+            <div class="structure_item">
+                <img src="assets/prod.png" alt="">
+                <span>structure #1</span>
+            </div>
+            <div class="structure_item">
+                <img src="assets/prod.png" alt="">
+                <span>structure #2</span>
+            </div>
+            <div class="structure_item">
+                <img src="assets/prod.png" alt="">
+                <span>structure #3</span>
+            </div>
+        </div>
+    </div>
+    <div class="reviews">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <div class="slide_title">
+                        <img class="slider_photo" src="assets/doctor.png" alt="User Photo">
+                        <div class="name">John Doe</div>
+                    </div>
+                    <div class="testimonial">This is a great product!</div>
+                </div>
+                <div class="slide">
+                    <div class="slide_title">
+                        <img class="slider_photo" src="assets/doctor.png" alt="User Photo">
+                        <div class="name">Jane Smith</div>
+                    </div>
+                    <div class="testimonial">I highly recommend this!</div>
+                </div>
+                <div class="slide">
+                    <div class="slide_title">
+                        <img class="slider_photo" src="assets/doctor.png" alt="User Photo">
+                        <div class="name">Mike Johnson</div>
+                    </div>
+                    <div class="testimonial">Amazing experience!</div>
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <button id="prev">&lt;</button>
+                <button id="next">&gt;</button>
+            </div>
+        </div>
+    </div>
+    <div class="product_property">
+        <div class="product_property-container">
+            <img src="assets/docnprod.png" alt="">
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+            </span>
+        </div>
+        <ul class="product_property_description product_property-container">
+            <li>Property #1</li>
+            <li>Property #2</li>
+            <li>Property #3</li>
+        </ul>
+        <a href="#form" class="promo_button">Заказать</a>
+    </div>
+    <div class="product_form">
+        <span class="product_name">LevelUp</span>
+        <div class="product_form-wrapper">
+            <div class="product_price">
+                <span class="old_price">1234</span>
+                <span class="new_price">234</span>
+            </div>
+            <div class="product_timer">
+                <div>
+                    <span class="minutes" id="minutes">30</span>
+                    <label class="time-label" for="minutes">минуты</label>
+                </div>
+                <label>:</label>
+                <div>
+                    <span class="seconds" id="seconds">00</span>
+                    <label class="time-label" for="seconds">секунды</label>
+                </div>
+            </div>
+        </div>
+        <div class="product_form-container">
+            <form action="" id="form">
+                <input placeholder="Имя" class="product_form_input" type="text" id="inputName">
+                <label class="product_form_label" for="inputName">Иван</label>
+                <input placeholder="Номер телефона" class="product_form_input" type="number" id="inputNubmer">
+                <label class="product_form_label" for="inputNubmer">+75673214534</label>
+                <button class="product_submit" type="submit">Заказать</button>
+            </form>
+            <img class="product_image" src="assets/prod.png" alt="">
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
